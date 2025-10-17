@@ -25,8 +25,8 @@
 
 <script>
 import { ref, computed, watch, onMounted } from 'vue'
-import ProductList from './components/ProductList.vue'
-import Cart from './components/Cart.vue'
+import ProductList from './components/ui/ProductList.vue'
+import Cart from './components/ui/Cart.vue'
 
 export default {
   components: { ProductList, Cart },
